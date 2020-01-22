@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 from matplotlib.offsetbox import AnchoredText
 import seaborn as sns
 
+from tools import *
+
 sns.set(style='darkgrid',context='paper',palette='colorblind')
 
 stats = pd.read_hdf('../data/interim/NBA_stats_perGame_qualified_players_2000-2020.h5')
